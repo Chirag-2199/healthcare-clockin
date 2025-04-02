@@ -66,6 +66,29 @@ export default function Home() {
             </button>
           </form>
         </div>
+        <button
+          type="submit"
+          className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white py-3 rounded-xl text-lg font-semibold transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-xl"
+        >
+          Login
+        </button>
+
+        {/* Assignment Login Instructions */}
+        <div className="mt-6 p-6 bg-blue-50 rounded-lg text-base text-gray-600 space-y-3">
+          <p className="font-semibold mb-3 text-lg">For Reviewers:</p>
+          <div className="flex items-center gap-2">
+            <span className="text-2xl">👨💼</span>
+            <p>
+              Manager Login: <span className="font-bold text-gray-800">chirag@manager.com</span> (any password)
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-2xl">👩⚕️</span>
+            <p>
+              Care Worker Login: <span className="font-bold text-gray-800">clockin@coworker.com</span> (any password)
+            </p>
+          </div>
+        </div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 px-4">
